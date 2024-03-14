@@ -1,7 +1,7 @@
 {
-  "name": "@jswork/docker-mysql",
+  "name": "@jswork/docker-metube",
   "version": "1.0.0",
-  "description": "Docker for mysq@57.",
+  "description": "Docker for metube.",
   "homepage": "https://js.work",
   "author": {
     "name": "afeiship",
@@ -12,13 +12,12 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "boilerplate": "docker-mysql",
+  "boilerplate": "docker-metube",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/docker-mysql.git"
+    "url": "https://github.com/afeiship/docker-metube.git"
   },
   "scripts": {
-    "config:init": "cp docker-compose.sample.yml docker-compose.yml",
     "start": "docker-compose up",
     "start-d": "docker-compose up -d",
     "stop": "docker-compose down",
